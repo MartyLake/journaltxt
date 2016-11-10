@@ -1,0 +1,11 @@
+active: true
+derived: false
+level: 1.0
+links: []
+normative: true
+ref: ''
+reviewed: 91e5007583acf44c699901171260bbdd
+text: |
+  in a folder, user creates a project root that will base all subsequent calls
+  to journaltxt refer automaticaly to this root. a user is inside a project if
+  the pwd is the project root folder or any child folder.

@@ -1,0 +1,9 @@
+active: true
+derived: false
+level: 1.1
+links: []
+normative: true
+ref: ''
+reviewed: 186e9d0e21c47b10fbd43d26c6ffbe29
+text: |
+  user creates a journal txt project using "create"

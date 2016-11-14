@@ -1,0 +1,18 @@
+active: true
+derived: false
+level: 1.0
+links:
+- SRD002: 186e9d0e21c47b10fbd43d26c6ffbe29
+- SRD003: f263424423f67696637e0eab24a4eb5f
+normative: true
+ref: ''
+reviewed: 557e85c19f943acbad0dc84a65660855
+text: |
+  From any folder $mkdir testFolder && cd testFolder #create a test folder
+  $python3 journaltxt status #displays the current journal name, or nothing if
+  there is none. $mkdir projectRoot && cd projectRoot #creates the project root
+  $python3 journaltxt create JournalName $python3 journaltxt status #displays
+  the current journal namd "JournalName" $mkdir nestedFolder && cd nestedFolder
+  $python3 journaltxt status #displays the current journal namd "JournalName"
+  $cd ../.. #goes back to tesFolder $python3 journaltxt status #displays the
+  current journal name, or nothing if there is none.

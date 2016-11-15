@@ -1,0 +1,11 @@
+active: true
+derived: false
+level: 1.1000000000000001
+links:
+- SRD002: 186e9d0e21c47b10fbd43d26c6ffbe29
+normative: true
+ref: ''
+reviewed: 80976708613b3e78b91fa7084abf521b
+text: |
+  create option makes the current folder a project folder. subsequent calls to
+  create fails if the current folder is already a project folder

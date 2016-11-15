@@ -1,0 +1,11 @@
+active: true
+derived: false
+level: 1.0
+links:
+- SRD003: f263424423f67696637e0eab24a4eb5f
+normative: true
+ref: ''
+reviewed: fae8a39907086c9260c23fc4eb87c316
+text: |
+  status option retrieves the project name. if current folder isnt a project
+  folder, look at parent folder recursively until no parent folder is available

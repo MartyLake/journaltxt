@@ -1,0 +1,11 @@
+active: true
+derived: false
+level: 1.0
+links:
+- SDD001: null
+normative: true
+ref: def hasProjectInformations
+reviewed: 9c6b892c95c3380265541046fa5229c9
+text: |
+  hasProjectInformations(path/to/directory) returns true if the specified path
+  has a child file .journaltxt.yml ,false otherwise
